@@ -1,6 +1,8 @@
 # Algorithmic-trading Library in Python
 
 The AT library is a python library than can be used to create trading algorithems using technical indicators. It's built on Pandas, Numpy and Matplotlib.
+
+![Example Chart](/images/sign_bb.png)
 ### Volume
    * On Balance Volume
    * Negative Volume Index
@@ -8,23 +10,32 @@ The AT library is a python library than can be used to create trading algorithem
 ### Trend
    * Simple Moving Average
    * Exponentiel Moving Average
-   * Moving Average Convergence Divergence (MACD)
-   
+   * Moving Average Convergence Divergence
 ### Momentum
-   * Money Flow Index (MFI)
-   * Relative Strength Index (RSI)
-   * Stochastic Oscillator (SR)
-   * Williams %R (WR)
-   * Rate of Change (ROC)
+   * Money Flow Index
+   * Relative Strength Index
+   * Stochastic Oscillator
+   * Williams %R
+   * Rate of Change
+   * Chaikin Oscillator
 ### Volatility
-   * Bollinger Bands (BB)
+   * Bollinger Bands
    
    
 # Documentation
+The full documentation can be found in https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Documentation
 
-
+And an exemple in https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Exemple
 # How to use (Python 3)
-
-
+First download the code off the library.it can be found in  --lien-- and put it in your working dirextory or  use
+```python
+import os
+path="C:/Users/pc/Desktop/..."  # Working Directory 
+os.chdir(path)
+```
+Then: 
+```python
+import AT  as at
+```
 
 # Credits
