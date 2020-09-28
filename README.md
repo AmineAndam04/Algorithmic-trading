@@ -3,6 +3,8 @@
 The AT library is a python library than can be used to create trading algorithems using technical indicators. It's built on Pandas, Numpy and Matplotlib.
 
 ![Example Chart](/images/sign_bb.png)
+
+# Technical Indicators 
 ### Volume
    * On Balance Volume
    * Negative Volume Index
@@ -35,7 +37,8 @@ os.chdir(path)
 ```
 Then: 
 ```python
-import AT  as at
+import AT as at
 ```
+# Sources
 
 # Credits
