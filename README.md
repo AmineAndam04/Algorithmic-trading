@@ -1,6 +1,6 @@
-# Algorithmic-trading Library in Python 
+# Algorithmic-trading Library in Python
+
 The AT library is a python library than can be used to create trading algorithems using technical indicators. It's built on Pandas, Numpy and Matplotlib.
------
 ### Volume
    * On Balance Volume
    * Negative Volume Index
