@@ -16,7 +16,8 @@ Indicateurs techniques:
   pvi : Positive Volume Index
 
 
-
+author="ANDAM AMINE"
+version="0.0.1"
 """
 
 import pandas as pd
