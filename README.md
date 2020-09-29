@@ -25,17 +25,17 @@ The AT library is a python library than can be used to create trading algorithem
    
    
 # Documentation
-The full documentation can be found in https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Documentation
+The full documentation can be found in [https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Documentation]
 
 And an exemple in https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Exemple
 # How to use (Python 3)
-First download the code off the library.it can be found in  --lien-- and put it in your working dirextory or  use
+First download the code off the library.it can be found in  --lien-- and put it in your working directory or  use
 ```python
 import os
-path="C:/Users/pc/Desktop/..."  # Working Directory 
+path="C:/Users/pc/Desktop/..."  # the location of the diwnloaded code 
 os.chdir(path)
 ```
-Then: 
+Then import the libray : 
 ```python
 import AT as at
 ```
