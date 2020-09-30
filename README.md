@@ -4,11 +4,8 @@ The AT library is a python library than can be used to create trading algorithem
 
 ![Example Chart](/images/sign_bb.png)
 
-# Technical Indicators 
-### Volume
-   * On Balance Volume
-   * Negative Volume Index
-   * Positive volume index
+# Technical Indicators
+
 ### Trend
    * Simple Moving Average
    * Exponentiel Moving Average
@@ -20,6 +17,10 @@ The AT library is a python library than can be used to create trading algorithem
    * Williams %R
    * Rate of Change
    * Chaikin Oscillator
+### Volume
+   * On Balance Volume
+   * Negative Volume Index
+   * Positive volume index
 ### Volatility
    * Bollinger Bands
    
@@ -32,7 +33,7 @@ The full documentation can be found in [Documentation](https://github.com/AmineA
 First download the code off the library.it can be found in  --lien-- and put it in your working directory or  use
 ```python
 import os
-path="C:/Users/pc/Desktop/..."  # the location of the diwnloaded code 
+path="C:/Users/pc/Desktop/..."  # the location of the downloaded code 
 os.chdir(path)
 ```
 Then import the libray : 
