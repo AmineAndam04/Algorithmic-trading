@@ -25,12 +25,17 @@ The AT library is a python library than can be used to create trading algorithem
    * Bollinger Bands
    
    
+# Performance
+
+   * Modified Dietz Return
+   * Capital gain/loss
+   
 # Documentation
 The full documentation can be found in [Documentation](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Documentation)
 
  An exemple is  in [Exemple](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Exemple) (in frensh)
 # How to use (Python 3)
-First download the code off the library.it can be found in  --lien-- and put it in your working directory or  use
+First download the code of the library.it can be found in [AT](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/AT) and put it in your working directory or  use
 ```python
 import os
 path="C:/Users/pc/Desktop/..."  # the location of the downloaded code 
@@ -41,13 +46,13 @@ Then import the libray :
 import AT as at
 ```
 # Sources
--Eyal Wirsansky - Hands-On Genetic Algorithms with Python_ Applying genetic algorithms to solve real-world deep learning and artificial intelligence problems-Packt Publishing (2020)
+   * Eyal Wirsansky - Hands-On Genetic Algorithms with Python_ Applying genetic algorithms to solve real-world deep learning and artificial intelligence problems-Packt Publishing (2020)
 
 
--Sebastien Donadio, Sourav Ghosh - Learn Algorithmic Trading_ Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis-Packt Publishing (2019)
+   * Sebastien Donadio, Sourav Ghosh - Learn Algorithmic Trading_ Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis-Packt Publishing (2019)
 
 
--Prodromos E. Tsinaslanidis, Achilleas D. Zapranis - Technical Analysis for Algorithmic Pattern Recognition-Springer (2016)
+   * Prodromos E. Tsinaslanidis, Achilleas D. Zapranis - Technical Analysis for Algorithmic Pattern Recognition-Springer (2016)
 
 
 # Credits
