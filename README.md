@@ -45,6 +45,29 @@ Then import the libray :
 ```python
 import AT as at
 ```
+
+# Genetic Algorithms
+A genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on biologically inspired operators such as mutation, crossover and selection.(Mitchell, Melanie (1996). An Introduction to Genetic Algorithms)
+
+
+In this project, we used the [DEAP library](https://deap.readthedocs.io/en/master/) to implement genetic algorithm.
+In our case, we used those technics: 
+
+                * Selection: Tournament selection (tools.selTournament)
+                * Crossover: Simulated Binary Crossover (tools.cxSimulatedBinaryBounded)
+                * Mutation: polynomial mutation (tools.mutPolynomialBounded )
+
+# Updates 
+Instead of creating just one module that contains all functions, we create a package [AT_new_version](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/AT_new_version) that contain 5 modules. Each one has a specific task. 
+
+There are 5 modules in the package: 
+
+               * Indicators: to compute technical indicators
+               * Signal: To generate trading signals 
+               * GraphIndicators: To visualize technical indicators
+               * GraphSignal: To visualize trading signals
+               * Performance: Tools to evaluate trading strategies
+
 # Sources
    * Eyal Wirsansky - Hands-On Genetic Algorithms with Python_ Applying genetic algorithms to solve real-world deep learning and artificial intelligence problems-Packt Publishing (2020)
 
