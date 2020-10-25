@@ -51,7 +51,7 @@ def Dietz(close,signal):
     return (diet.prod()-1)
 
 # DO NOT use this function.
-#FOR THE INTERNAL USE ONLY
+#FOR INTERNAL USE ONLY
 def dietz_court(signal,close):
     date=close.index
     date=date.values
