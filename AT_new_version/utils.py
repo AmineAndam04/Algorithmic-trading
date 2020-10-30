@@ -1,9 +1,6 @@
 import numpy as np
 
 
-
-
-## Function to adjust signals: if we have a sell signal but we don't have something to sell, we ignore that signal
 def adjustsignal(signal):
 	sig=[]
 	qtite=0
