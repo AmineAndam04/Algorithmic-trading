@@ -8,7 +8,7 @@ from .Performance import pmv
 def plt_smm1(df,n):
     """
      Plots the rule1 using the simple moving average 
-     Go to documentation to know the different rules of SMM that we are using in our package 
+     For more information about rule2 see documentation 
      Inputs: 
     		Input | Type                             | Description
     		=================================================================================
@@ -40,7 +40,7 @@ def plt_smm1(df,n):
 def plt_smm2(df,ws,wl):
 	"""
 	Plots the rule2 using the simple moving average 
-	 Go to documentation to know the different rules of SMM that we are using in our package 
+	For more information about rule2 see documentatione 
 	Inputs: 
 			Input   | Type                             | Description
 			=================================================================================
