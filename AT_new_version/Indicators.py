@@ -9,7 +9,7 @@ def smm(df,n):
 			Input | Type                             | Description
 			=================================================================================
 			 df   |pandas.DataFrame or pandas.Series | Prices, volumes .....
-	         n    | int                              | Period
+	                 n    | int                              | Period
 	Outputs:
 	        Output | Type                             | Description
 	       ================================================================================= 
