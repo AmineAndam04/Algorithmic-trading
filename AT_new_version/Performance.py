@@ -5,7 +5,16 @@ from .utils import dietz_court
 
 def pmv(close,signal):
 	"""
-		La Plus-ou-moins-value
+	Capital gain/loss (les Plus-ou-moins value)
+	Inputs: 
+	        Input      | Type                             | Description
+	       =========================================================================================
+	         close     |pandas.DataFrame or pandas.Series | Prices
+	         signal    |pandas.DataFrame or pandas.Series | Trading signal
+	Outputs:
+	        Output | Type                             | Description
+	       ========================================================================================
+	               | numpy.ndarray              )     | Capital gain/loss  
 
 	"""
 	close=np.array(close)
@@ -34,17 +43,27 @@ def pmv(close,signal):
 def Dietz(close,signal):
     """
     Modified Dietz Return
+	Inputs: 
+	        Input      | Type                             | Description
+	       =========================================================================================
+	         close     |pandas.DataFrame or pandas.Series | Prices
+	         signal    |pandas.DataFrame or pandas.Series | Trading signal
+	Outputs:
+	        Output | Type                             | Description
+	       ========================================================================================
+	               | float                            | Modified Dietz Return   
+
     """
     qt=signal.cumsum().round(3)
     diet=[]
     i=0
     while i < len(qt):
-        debut=i
+        start=i
         while i< len(qt) and qt[i]!=0  :
             i+=1
-        if debut !=i:
-            fin=i+1
-            val=dietz_court(signal.iloc[debut:fin],close[debut:fin])
+        if start !=i:
+            end=i+1
+            val=dietz_court(signal.iloc[start:end],close[start:end])
             diet.append(val)
         i+=1
     diet=np.array(diet)+1
