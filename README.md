@@ -35,7 +35,7 @@ The full documentation can be found in [Documentation](https://github.com/AmineA
 
  An exemple is  in [Exemple](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/Exemple) (in frensh)
 # How to use (Python 3)
-First download the code of the library.it can be found in [AT](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/AT) and put it in your working directory or  use
+First download the code of the library.it can be found in [AT](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/AT) (or download the new version [AT](https://github.com/AmineAndam04/Algorithmic-trading/tree/master/AT_new_version)) and put it in your working directory or  use
 ```python
 import os
 path="C:/Users/pc/Desktop/..."  # the location of the downloaded code 
